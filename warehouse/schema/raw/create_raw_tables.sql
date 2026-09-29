@@ -82,7 +82,6 @@ CREATE TABLE IF NOT EXISTS raw.payments (
 );
 
 CREATE TABLE IF NOT EXISTS raw.reviews (
-    review_key INT,
     review_id VARCHAR(100),
     order_id VARCHAR(100),
     review_score SMALLINT,
