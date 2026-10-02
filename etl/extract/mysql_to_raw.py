@@ -78,7 +78,6 @@ TABLES = {
         "updated_at",
     ],
     "reviews": [
-        "review_key",
         "review_id",
         "order_id",
         "review_score",

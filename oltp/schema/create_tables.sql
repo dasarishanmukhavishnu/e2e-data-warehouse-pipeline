@@ -90,8 +90,7 @@ CREATE TABLE payments (
 );
 
 CREATE TABLE reviews (
-    review_key INT AUTO_INCREMENT PRIMARY KEY,
-    review_id VARCHAR(100) NOT NULL,
+    review_id VARCHAR(100) PRIMARY KEY,
     order_id VARCHAR(100) NOT NULL,
     review_score TINYINT UNSIGNED NOT NULL,
     review_comment_title VARCHAR(255),
